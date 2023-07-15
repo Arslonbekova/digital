@@ -1,0 +1,125 @@
+@media screen and (max-width:428px){
+    .container{
+        max-width: 380px;
+    }
+    .nav{
+        gap: 210px;
+    }
+    .brg{
+    display: block;
+    }
+    .div{
+    height: 0;
+    }
+    .nav>a{
+        font-size: 14px;
+    }
+    /* hero */
+    .hero{
+        gap: 48px;
+        justify-content: center;
+    }
+    .hero-left{
+        align-items: center;
+        width: 378px;
+    }
+    .hero-left>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero-left>p{
+        padding: 5px;
+        width: 378px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .hero-img{
+        width: 358px;
+        height: 358px;
+    }
+    /* companies */
+    .companies>p{
+    font-size: 14px;
+    }
+    .logo-box{
+        width: 380px;
+        height: 86px;
+    }
+    .img-box{
+        width: 348pxpx;
+    }
+    .img-box>img:nth-child(1){
+        width: 70px;
+        height: 23.558px;
+    }
+    .img-box>img:nth-child(2){
+        width: 60px;
+        height: 23.558px;
+    }
+    .img-box>img:nth-child(3){
+        width: 80px;
+        height: 23.558px;
+    }
+    .img-box>img:nth-child(4){
+        width: 49px;
+        height: 23.558px;
+    }
+    /* Custome and branding */
+    .branding{
+        flex-direction: column-reverse;
+    }
+    .b-c-text{
+        width: 380px;
+    }
+    .b-c-text>h2{
+        font-size: 32px;
+        text-align: center;
+    }
+    .b-c-text>p{
+        width: 380px;
+        text-align: center;
+        font-size: 14px;
+        padding: 5px;
+    }
+    .b-c-text>i{
+        text-align: center;
+        font-size: 30px;
+        transform: rotate(90deg);
+    }
+    .b-c-img{
+        width: 375px;
+        height: 384px;
+    }
+    /* testimonials */
+    .testimonials-text-box>p{
+        font-size: 12px;
+    }
+    .testimonials-text-box>h2{
+        width: 380px;
+        font-size: 32px;
+    }
+    /* contact */
+    .contact-img{
+        width: 0;
+        height: 0;
+    }
+    .contact>.b-c-text{
+       padding: 56px 35px 48px;
+       align-items: center;
+    }
+    .contact>.b-c-text p{
+        font-size: 16px;
+    }
+    /* footer */
+    .f-top{
+        justify-content: center;
+        text-align: center;
+        gap: 72px;
+    }
+    .f-top+a{
+        font-size: 12px;
+    }
+    .ul3{
+        width: 190px;
+    }
+}   
